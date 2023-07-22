@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+  <title>WebRTC test</title>
+  <link rel="shortcut icon" href="#">
+</head>
+<body>
+  <h1>KarirKita :)</h1>
+
+  <div> 
+    <video class='video-player' id="localVideo" autoplay muted playsinline width="320" height="240"></video>
+    <video class='video-player' id="remoteVideo" autoplay muted playsinline width="320" height="240"></video>
+  </div>
+  
+  <button onclick="startCall()">Start Call</button>
+  <button onclick="endCall()">End Call</button>
+  <script src="main.js"></script>
+  <!-- <script>
+    // const wss = new WebSocket('ws://localhost:7777');
+  
+    ws.onmessage = async (event) => {
+      const message = JSON.parse(event.data);
+      if (message.type === 'offer') {
+        // Handle received SDP offer from the remote peer
+        await peerConnection.setRemoteDescription(message.sdp);
+  
+        // Create an SDP answer and send it back to the remote peer
+        const answer = await peerConnection.createAnswer();
+        await peerConnection.setLocalDescription(answer);
+  
+        // Send the SDP answer via WebSocket
+        ws.send(JSON.stringify({ type: 'answer', sdp: peerConnection.localDescription }));
+      } else if (message.type === 'candidate') {
+        // Handle received ICE candidate from the remote peer
+        await peerConnection.addIceCandidate(message.candidate);
+      }
+    };
+  </script> -->
+  
+</body>
+</html>
