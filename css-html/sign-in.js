@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function () {
       
     } else {
 
-      window.location.href = '/Users/captainawesome/Desktop/GARUDAHACKS/index.html';
+      window.location.href = 'mainMenu.html';
     }
   });
 });
