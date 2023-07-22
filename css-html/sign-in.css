@@ -1,17 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
 
 html,
 body {
-  height: 100%;
-  margin: 0;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #1a1a1a;
-  color: #fff;
-  font-family: 'Roboto', sans-serif;
-  font-size: 16px;
-  line-height: 1.5;
 }
 
 .container {
@@ -30,7 +22,7 @@ body {
 .form-signin input[type="password"] {
   margin-bottom: 10px;
   border-radius: 10px;
-  background-color: #2a2a2a;
+  background-color:var(--bs-secondary-bg);
   color: #fff;
   border: none;
   padding: 12px;
@@ -43,24 +35,4 @@ body {
 
 .form-check-label {
   color: #fff;
-}
-
-.btn-primary {
-  background-color: #712cf9;
-  border-color: #712cf9;
-  border-radius: 10px;
-  transition: background-color 0.3s, border-color 0.3s;
-  height: 35px;
-  width: 70px;
-  font-size: 12px;
-}
-
-.btn-primary:hover {
-  background-color: #6528e0;
-  border-color: #6528e0;
-}
-
-.btn-primary:active {
-  background-color: #5a23c8;
-  border-color: #5a23c8;
 }
