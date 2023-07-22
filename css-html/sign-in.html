@@ -2,13 +2,15 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Signin page</title>
   <link rel="stylesheet" href="sign-in.css">
+  <link rel="stylesheet" href="bootstrap.css">
 </head>
-<body>
-  <div class="test">
-    <main class="form-signin">
+<body data-bs-theme="dark">
+  
+  <div>
+    <main class="form-signin mt-5">
       <form id='signinForm'>
         <h1 class="h3 mb-3 fw-normal">Please sign in</h1>
 
@@ -27,7 +29,9 @@
             Remember me
           </label>
         </div>
-        <button class="btn btn-primary w-100 py-2" type="submit">Sign in</button>
+        <button class="btn btn-primary px-5" type="submit">
+          Sign in
+        </button>
         <p class="mt-5 mb-3 text-body-secondary">&copy; 2023 - 2077 :)</p>
       </form>
     </main>
