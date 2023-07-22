@@ -1,7 +1,7 @@
 # KarKi_GH_2023
 
 ## About KarirKita
-Karir Kita is a web project developed by a group of high school students. As its name suggests, Karir Kita (which translates to "Our Career" in English) aims to empower newly graduated students by providing them with invaluable assistance in preparing for job interviews. The platform achieves this by offering mockup or simulation interviews conducted through a video calling system, enabling students to gain essential experience, advice, and feedback from industry professionals in real-time.
+KarirKita is a web project developed by a group of high school students. As its name suggests, Karir Kita (which translates to "Our Career" in English) aims to empower newly graduated students by providing them with invaluable assistance in preparing for job interviews. The platform achieves this by offering mockup or simulation interviews conducted through a video calling system, enabling students to gain essential experience, advice, and feedback from industry professionals in real-time.
 
 ## How we built it
 For the video calling system we used WebRTC and ICE and STUN servers were used for the connections. The UI was built using CSS, HTML and JavaScript.
