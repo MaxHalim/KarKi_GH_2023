@@ -1,0 +1,54 @@
+.box1 {
+  width: 90%;
+  display: block;
+  background-color: var(--bs-light-bg-subtle);
+  border-radius: 40px;
+  margin: auto;
+  padding: 20px;
+  display: flex;
+}
+
+.left-content {
+  flex: 3;
+  text-align: left;
+  padding-right: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.right-content {
+  flex: 4; 
+  text-align: center;
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+}
+.hero {
+  display: grid;
+  grid-template-columns: minmax(0,1fr) minmax(0,1fr);
+}
+
+.mainMenuBox{
+  height: 70vh; 
+  width: 70vw; 
+  margin-left: 15vw; 
+  margin-right: 15vw; 
+  margin-top: 15vh; 
+  margin-bottom: 15vh;
+  display: block;
+  background-color: var(--bs-light-bg-subtle);
+  border-radius: 40px;
+  display: grid;
+  grid-template-rows: repeat(5, 1fr);
+}
+
+.mainMenuEntry{
+border-bottom: solid 2px var(--bs-body-color);
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+padding: 0;
+margin: 0;
+}
