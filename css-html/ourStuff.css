@@ -45,10 +45,10 @@
 }
 
 .mainMenuEntry{
-border-bottom: solid 2px var(--bs-body-color);
-display: flex;
-flex-direction: row;
-justify-content: space-between;
-padding: 0;
-margin: 0;
+  border-bottom: solid 2px var(--bs-body-color);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
 }
